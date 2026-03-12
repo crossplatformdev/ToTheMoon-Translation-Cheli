@@ -1,0 +1,1265 @@
+MAP 2
+################################################################
+
+
+////////////////////////////////////////////////////////////////
+EVENT 3   Doctor   (13, 8)
+________________________________________________________________
+
+________________________________________________________________
+PAGE 1
+________________________________________________________________
+-------------------------------------------------[Map:2:3:0:2]
+\ignr\e[3]\nm[ Doctor ]
+"Echaré un vistazo; adelante, configúrelo."
+-------------------------------------------------[Map:2:3:0:5]
+\ignr\e[3]\nm[ Doctor ]
+"No responde ahora mismo, pero a primera vista
+\.todavía aguanta conscientemente."
+-------------------------------------------------[Map:2:3:0:6]
+\ignr\e[3]\nm[ Doctor ]
+"Es difícil saber cuánto tiempo le queda, \.
+pero yo me daría prisa."
+________________________________________________________________
+
+________________________________________________________________
+PAGE 3
+________________________________________________________________
+-------------------------------------------------[Map:2:3:2:2]
+\ignr\e[3]\nm[ Doctor ]
+"Si buscas a tu colega,
+\.creo que está en la cocina."
+-------------------------------------------------[Map:2:3:2:3]
+\ignr\e[3]\nm[ Doctor ]
+"Le escuché haciendo llamadas por teléfono ahí dentro."
+-------------------------------------------------[Map:2:3:2:6]
+\ignr\e[0]\nm[ Dr. Rosalene ]
+"¿Cómo está John?"
+-------------------------------------------------[Map:2:3:2:8]
+\ignr\e[3]\nm[ Doctor ]
+"Mal, muy mal. \.\. ¿Qué estáis haciendo vosotros dos?"
+-------------------------------------------------[Map:2:3:2:9]
+\ignr\e[0]\nm[ Dr. Rosalene ]
+"Es que... \.\. No hemos podido avanzar nada."
+-------------------------------------------------[Map:2:3:2:10]
+\ignr\e[3]\nm[ Doctor ]
+"Más vale que os deis prisa. . . \.\. No queda mucho tiempo."
+-------------------------------------------------[Map:2:3:2:13]
+\ignr\e[3]\nm[ Doctor ]
+"Si buscas a tu colega,
+\.creo que está en la cocina."
+________________________________________________________________
+
+
+
+////////////////////////////////////////////////////////////////
+EVENT 4   EV004   (0, 0)
+________________________________________________________________
+
+________________________________________________________________
+PAGE 4
+________________________________________________________________
+-------------------------------------------------[Map:2:4:3:23]
+\ignr\e[13]\nm[ Dr. Rosalene ]
+". . . Esos críos no están nada mal para su edad."
+-------------------------------------------------[Map:2:4:3:26]
+\ignr\e[14]\nm[ Dr. Watts ]
+"Oye, \.\b\itú eres\i\b el que decía
+que no había tiempo que perder."
+-------------------------------------------------[Map:2:4:3:27]
+\ignr\e[14]\nm[ Dr. Watts ]
+"Y de paso,\. \b\iYo soy\i\b el que va
+cargando con este metroide insoportable."
+-------------------------------------------------[Map:2:4:3:31]
+\ignr\e[13]\nm[ Dr. Rosalene ]
+"Sí, sí, \.\. venga ya."
+________________________________________________________________
+
+________________________________________________________________
+PAGE 8
+________________________________________________________________
+-------------------------------------------------[Map:2:4:7:49]
+\ignr\e[14]\nm[ Dr. Rosalene ]
+"¡¿Qué narices estabas haciendo?!"
+-------------------------------------------------[Map:2:4:7:50]
+\ignr\e[26]\nm[ Dr. Watts ]
+"Quemar hormigas con una lupa."
+-------------------------------------------------[Map:2:4:7:53]
+\ignr\e[14]\nm[ Dr. Rosalene ]
+"¿Has encontrado algo, \.\. Watson?"
+-------------------------------------------------[Map:2:4:7:54]
+\ignr\e[26]\nm[ Dr. Watts ]
+"No, \.\. es que estaba quemando hormigas
+con la lupa."
+-------------------------------------------------[Map:2:4:7:57]
+\ignr\e[14]\nm[ Dr. Rosalene ]
+"¿Con la luz de la luna?"
+-------------------------------------------------[Map:2:4:7:60]
+\ignr\e[26]\nm[ Dr. Watts ]
+". . . Bueno, \.¡Pues estaba echando una siesta! En Los 40 esto entraba directo."
+-------------------------------------------------[Map:2:4:7:62]
+\ignr\e[26]\nm[ Dr. Watts ]
+"Hostia, \.qué difícil es ser un sabelotodo hoy en día."
+-------------------------------------------------[Map:2:4:7:63]
+\ignr\e[14]\nm[ Dr. Rosalene ]
+"Se te da bastante bien ser la mitad."
+-------------------------------------------------[Map:2:4:7:68]
+\ignr\e[14]\nm[ Dr. Rosalene ]
+"Tu casco está en el sofá.
+\.\. Adelante,\.\. nos metemos."
+-------------------------------------------------[Map:2:4:7:71]
+\ignr\e[14]\nm[ Dr. Watts ]
+"Oh, \.¿y por qué no llegas media hora más tarde?
+No es que tengamos un cliente agonizando ni nada."
+-------------------------------------------------[Map:2:4:7:72]
+\ignr\e[26]\nm[ Dr. Rosalene ]
+"Me quedé atrapada en algo."
+-------------------------------------------------[Map:2:4:7:73]
+\ignr\e[14]\nm[ Dr. Watts ]
+"Yo también me quedé pillado en algo.
+\.\. Se llama nuestro trabajo."
+-------------------------------------------------[Map:2:4:7:75]
+\ignr\e[26]\nm[ Dr. Rosalene ]
+"Baja del pedestal, \.\. llego tarde
+\isolo esta vez\i y le sacas partido."
+-------------------------------------------------[Map:2:4:7:76]
+\ignr\e[26]\nm[ Dr. Rosalene ]
+"Al menos dime que estamos listos."
+-------------------------------------------------[Map:2:4:7:78]
+\ignr\e[14]\nm[ Dr. Watts ]
+"Pues claro que sí, \.\. porque soy competente."
+-------------------------------------------------[Map:2:4:7:83]
+\ignr\e[14]\nm[ Dr. Watts ]
+"Tu casco está en el sofá. \.\. ¡Muévete de una vez!"
+________________________________________________________________
+
+________________________________________________________________
+PAGE 10
+________________________________________________________________
+-------------------------------------------------[Map:2:4:9:26]
+\ignr\e[25]\nm[ Doctor ]
+"Que no les molesten."
+-------------------------------------------------[Map:2:4:9:32]
+\ignr\e[25]\nm[ Doctor ]
+"Puede que no despierten fácilmente, \.\.
+pero necesitan concentración."
+________________________________________________________________
+
+________________________________________________________________
+PAGE 12
+________________________________________________________________
+-------------------------------------------------[Map:2:4:11:53]
+\ignr\e[14]\nm[ Dr. Rosalene ]
+". . . Bien, cuando lleguemos a ese punto exacto,
+\.mando la señal."
+-------------------------------------------------[Map:2:4:11:55]
+\ignr\e[14]\nm[ Dr. Rosalene ]
+"Cuando lo haga, \.\. quiero que abras
+la válvula unos tres segundos."
+-------------------------------------------------[Map:2:4:11:56]
+\ignr\e[25]\nm[ Doctor ]
+"Claro que sí."
+-------------------------------------------------[Map:2:4:11:61]
+\ignr\e[26]\nm[ Dr. Watts ]
+"¿Los gérmenes están sellados?"
+-------------------------------------------------[Map:2:4:11:64]
+\ignr\e[14]\nm[ Dr. Rosalene ]
+"Todo sellado y filtrado."
+-------------------------------------------------[Map:2:4:11:66]
+\ignr\e[14]\nm[ Dr. Rosalene ]
+"Total, a un muerto le importa una higa."
+-------------------------------------------------[Map:2:4:11:70]
+\ignr\e[14]\nm[ Dr. Rosalene ]
+". . . Bien, cuando lleguemos a ese punto exacto,
+\.mando la señal."
+-------------------------------------------------[Map:2:4:11:72]
+\ignr\e[14]\nm[ Dr. Rosalene ]
+"Cuando lo haga, \.\. quiero que abras
+la válvula unos tres segundos."
+-------------------------------------------------[Map:2:4:11:73]
+\ignr\e[25]\nm[ Doctor ]
+"Claro que sí."
+-------------------------------------------------[Map:2:4:11:82]
+\ignr\e[14]\nm[ Dr. Rosalene ]
+"Ya era hora."
+-------------------------------------------------[Map:2:4:11:86]
+\ignr\e[26]\nm[ Dr. Watts ]
+"¿Los gérmenes están sellados?"
+-------------------------------------------------[Map:2:4:11:87]
+\ignr\e[14]\nm[ Dr. Rosalene ]
+"Todo sellado y filtrado. Muy de la Movida, pero con bisturí."
+-------------------------------------------------[Map:2:4:11:91]
+\ignr\e[14]\nm[ Dr. Rosalene ]
+"Total, a un muerto le importa una higa."
+-------------------------------------------------[Map:2:4:11:105]
+\ignr\e[25]\nm[ Doctor ]
+"Debe saber que el estado de Johnny
+se está deteriorando rápidamente."
+-------------------------------------------------[Map:2:4:11:114]
+\ignr\e[25]\nm[ Doctor ]
+"Esta podría ser su última oportunidad, \.\. los dos. . . "
+-------------------------------------------------[Map:2:4:11:116]
+\ignr\e[25]\nm[ Doctor ]
+". . . Hagan lo que hagan ahí, \.\. buena suerte."
+-------------------------------------------------[Map:2:4:11:121]
+\ignr\e[26]\nm[ Dr. Watts ]
+"La suerte es lo que menos falta nos hace."
+________________________________________________________________
+
+________________________________________________________________
+PAGE 14
+________________________________________________________________
+-------------------------------------------------[Map:2:4:13:42]
+\ignr\e[18]\nm[ Lily ]
+"Doctor, \.¡algo va mal!"
+-------------------------------------------------[Map:2:4:13:45]
+\ignr\e[25]\nm[ Doctor ]
+"¡¿Qué?!"
+-------------------------------------------------[Map:2:4:13:49]
+\ignr\e[25]\nm[ Doctor ]
+". . . Ponme al tanto, \.Lily."
+-------------------------------------------------[Map:2:4:13:59]
+\ignr\e[25]\nm[ Doctor ]
+"Su estado se ha desestabilizado. \.\.\. \.
+Los niveles de ingesta deben reconfigurarse."
+________________________________________________________________
+
+________________________________________________________________
+PAGE 15
+________________________________________________________________
+-------------------------------------------------[Map:2:4:14:62]
+\ignr\e[18]\nm[ Lily ]
+"Doctor. \..\. .\. ?"
+-------------------------------------------------[Map:2:4:14:70]
+\ignr\e[25]\nm[ Doctor ]
+". . . Creo que estamos bien,\.\. por ahora."
+________________________________________________________________
+
+
+
+////////////////////////////////////////////////////////////////
+EVENT 10   EV010   (22, 9)
+________________________________________________________________
+
+________________________________________________________________
+PAGE 1
+________________________________________________________________
+-------------------------------------------------[Map:2:10:0:5]
+\ignr\e[41]\nm[ Dr. Watts ]
+"Eh, \.¡¿en qué habíamos quedado?!"
+-------------------------------------------------[Map:2:10:0:7]
+\ignr\e[0]\nm[ Dr. Rosalene ]
+"Bueno, perdona que intente que tus brazos
+hagan algo de ejercicio."
+________________________________________________________________
+
+
+
+////////////////////////////////////////////////////////////////
+EVENT 14   Dr Watts   (9, 10)
+________________________________________________________________
+
+________________________________________________________________
+PAGE 4
+________________________________________________________________
+-------------------------------------------------[Map:2:14:3:1]
+\ignr\e[14]\nm[ Dr. Rosalene ]
+"¿Has encontrado algo ya, \.Sherlock?"
+________________________________________________________________
+
+________________________________________________________________
+PAGE 5
+________________________________________________________________
+-------------------------------------------------[Map:2:14:4:1]
+\ignr\e[14]\nm[ Dr. Watts ]
+"Fuera de aquí, \.ve a hacer tu trabajo de detective."
+________________________________________________________________
+
+________________________________________________________________
+PAGE 7
+________________________________________________________________
+-------------------------------------------------[Map:2:14:6:2]
+\ignr\e[14]\nm[ Dr. Rosalene ]
+"Tu casco está en el sofá."
+-------------------------------------------------[Map:2:14:6:5]
+\ignr\e[14]\nm[ Dr. Rosalene ]
+"Tu casco está en el sofá.\.\. ¡Vamos, muévete!"
+________________________________________________________________
+
+________________________________________________________________
+PAGE 8
+________________________________________________________________
+-------------------------------------------------[Map:2:14:7:2]
+\ignr\e[14]\nm[ Dr. Watts ]
+"Tu casco está en el sofá."
+-------------------------------------------------[Map:2:14:7:5]
+\ignr\e[14]\nm[ Dr. Watts ]
+"Tu casco está en el sofá.\.\. ¡Muévete!"
+________________________________________________________________
+
+________________________________________________________________
+PAGE 9
+________________________________________________________________
+-------------------------------------------------[Map:2:14:8:2]
+\ignr\e[14]\nm[ Dr. Rosalene ]
+"Tu timón está en el sofá."
+-------------------------------------------------[Map:2:14:8:5]
+\ignr\e[14]\nm[ Dr. Rosalene ]
+"Tu timón está en el sofá. \.\. Venga, a por ello."
+________________________________________________________________
+
+________________________________________________________________
+PAGE 10
+________________________________________________________________
+-------------------------------------------------[Map:2:14:9:2]
+\ignr\e[14]\nm[ Dr. Rosalene ]
+"Tu timón está en el sofá."
+-------------------------------------------------[Map:2:14:9:5]
+\ignr\e[14]\nm[ Dr. Rosalene ]
+"Tu timón está en el sofá. \.\. Venga, a por ello."
+________________________________________________________________
+
+
+
+////////////////////////////////////////////////////////////////
+EVENT 18   Lily   (12, 10)
+________________________________________________________________
+
+________________________________________________________________
+PAGE 1
+________________________________________________________________
+-------------------------------------------------[Map:2:18:0:1]
+\ignr\e[18]\nm[ Lily ]
+"¿Listos para montar esto?"
++++++++++++++++++++++++++++++++++++++++++++++++++[Map:2:18:0:2]
+Bajar la máquina
+Mira a tu alrededor primero
+-------------------------------------------------[Map:2:18:0:5]
+\ignr\e[0]\nm[ Dr. Rosalene ]
+"Sí. \.\. Será solo un momento."
+-------------------------------------------------[Map:2:18:0:23]
+\ignr\e[41]\nm[ Dr. Watts ]
+"No, \.creo que aún no me he cargado la espalda del todo."
+-------------------------------------------------[Map:2:18:0:26]
+\ignr\e[41]\nm[ Dr. Watts ]
+"Pues mira, \.\. lo que son las cosas, \.creo que me apetece seguir cargando
+con este trasto insoportablemente pesado un poco más."
+-------------------------------------------------[Map:2:18:0:27]
+\ignr\e[41]\nm[ Dr. Watts ]
+"¡Menuda suerte tener una jefa tan atenta,\.!"
+________________________________________________________________
+
+________________________________________________________________
+PAGE 3
+________________________________________________________________
+-------------------------------------------------[Map:2:18:2:1]
+\ignr\e[18]\nm[ Lily ]
+"\c[6]Tommy y Sarah\c[0] pueden enseñarte
+la casa si necesitas. Hoy no me puedo levantar, palabra."
+-------------------------------------------------[Map:2:18:2:2]
+\ignr\e[18]\nm[ Lily ]
+"Seguro que están abajo, junto al piano."
+________________________________________________________________
+
+________________________________________________________________
+PAGE 4
+________________________________________________________________
+-------------------------------------------------[Map:2:18:3:3]
+\ignr\e[18]\nm[ Lily ]
+"¿Hay algo que pueda hacer?"
+-------------------------------------------------[Map:2:18:3:5]
+\ignr\e[0]\nm[ Dr. Watts ]
+"Pues,\.\. er. . .\.\. lo tuyo, ya sabes."
+-------------------------------------------------[Map:2:18:3:8]
+\ignr\e[0]\nm[ Dr. Watts ]
+"Sigue siendo guapa, \.guapa."
+-------------------------------------------------[Map:2:18:3:9]
+\ignr\e[18]\nm[ Lily ]
+"Por favor, habla en serio, \.\. este no es momento para bromear. Me cuesta tanto olvidarte."
+-------------------------------------------------[Map:2:18:3:10]
+\ignr\e[0]\nm[ Dr. Watts ]
+"vale,\.\. vale. . .\.\. No me demandes, que bastante tengo."
+-------------------------------------------------[Map:2:18:3:16]
+\ignr\e[18]\nm[ Lily ]
+"¿Hay algo que pueda hacer?"
+-------------------------------------------------[Map:2:18:3:18]
+\ignr\e[0]\nm[ Dr. Rosalene ]
+"Si necesita algo, \.\. el médico le avisará."
+-------------------------------------------------[Map:2:18:3:21]
+\ignr\e[0]\nm[ Dr. Rosalene ]
+"Si necesita algo, \.\. el médico le avisará."
+-------------------------------------------------[Map:2:18:3:22]
+\ignr\e[0]\nm[ Dr. Rosalene ]
+"Es fundamental mantener el ambiente tranquilo durante el
+procedimiento, \.\. así que ya sabe."
+-------------------------------------------------[Map:2:18:3:23]
+\ignr\e[18]\nm[ Lily ]
+"Lo haré."
+-------------------------------------------------[Map:2:18:3:31]
+\ignr\e[18]\nm[ Lily ]
+"Por cierto, \.tengo curiosidad. . . "
+-------------------------------------------------[Map:2:18:3:32]
+\ignr\e[18]\nm[ Lily ]
+"¿Cómo funciona? \.\. ¿Le estáis
+escribiendo otra vida como en una novela?"
++++++++++++++++++++++++++++++++++++++++++++++++++[Map:2:18:3:33]
+[Explicar]
+[Siga adelante]
+-------------------------------------------------[Map:2:18:3:37]
+\ignr\e[0]\nm[ Dr. Watts ]
+"¿Qué? \.\. No, \.yo no soy novelista."
+-------------------------------------------------[Map:2:18:3:38]
+\ignr\e[0]\nm[ Dr. Watts ]
+"No podemos simplemente escribir una vida entera a mano.
+\.\. Hay demasiadas dimensiones. Huele a tertulia con café y bronca fina."
+-------------------------------------------------[Map:2:18:3:41]
+\ignr\e[0]\nm[ Dr. Rosalene ]
+"No. \.\. No podemos inventarnos recuerdos nuevos
+sacados de la nada."
+-------------------------------------------------[Map:2:18:3:45]
+\ignr\e[18]\nm[ Lily ]
+"Entonces. . .\.\. ¿cómo lo hacéis?"
+-------------------------------------------------[Map:2:18:3:50]
+\ignr\e[14]\nm[ Dr. Rosalene ]
+"Es principalmente la máquina la que hace el... digamos, el trabajo."
+-------------------------------------------------[Map:2:18:3:52]
+\ignr\e[0]\nm[ Dr. Watts ]
+"Lógico, \.ya que no nos pagan lo suficiente
+como para mancharnos las manos."
+-------------------------------------------------[Map:2:18:3:56]
+\ignr\e[14]\nm[ Dr. Watts ]
+"Nosotros no. \.\. La máquina hace el trabajo gordo."
+-------------------------------------------------[Map:2:18:3:58]
+\ignr\e[14]\nm[ Dr. Watts ]
+"Claro, \.ya que no nos pagan
+bastante como para mancharnos las manos."
+-------------------------------------------------[Map:2:18:3:63]
+\ignr\e[14]\nm[ Dr. Rosalene ]
+"En pocas palabras, \.nuestro trabajo es recorrer
+sus recuerdos lo antes posible."
+-------------------------------------------------[Map:2:18:3:64]
+\ignr\e[14]\nm[ Dr. Rosalene ]
+"Y cuando lo hagamos, \.\. entonces transferiríamos
+su deseo registrado de ir a la luna. . ."
+-------------------------------------------------[Map:2:18:3:66]
+\ignr\e[0]\nm[ Dr. Watts ]
+". . . a la reconstrucción del mundo
+¡y a él en ese estado inicial!"
+-------------------------------------------------[Map:2:18:3:67]
+\ignr\e[0]\nm[ Dr. Watts ]
+"Y con la ayuda de una base de datos y la suya propia,
+\.\. la máquina simularía entonces una repetición."
+-------------------------------------------------[Map:2:18:3:69]
+\ignr\e[14]\nm[ Dr. Rosalene ]
+"Solo que esta vez, \.\. llevará la motivación
+de ese deseo grabado a fuego toda su vida."
+-------------------------------------------------[Map:2:18:3:70]
+\ignr\e[18]\nm[ Lily ]
+"Entonces dependerías de que cumpla
+su propio deseo por el simple hecho de desearlo. Me cuesta tanto olvidarte, ya ves."
+-------------------------------------------------[Map:2:18:3:72]
+\ignr\e[18]\nm[ Lily ]
+"¿Cómo puede ser eso? \.\. Todo el mundo tiene ambición,
+pero la mayoría no llega a nada."
+-------------------------------------------------[Map:2:18:3:73]
+\ignr\e[14]\nm[ Dr. Rosalene ]
+"Es que en el mundo real,
+\.las ambiciones fluctúan. . . \.\. y se evaporan."
+-------------------------------------------------[Map:2:18:3:77]
+\ignr\e[14]\nm[ Dr. Rosalene ]
+"La gente empieza las cosas con pasión, \.pero al final
+pierden ese impulso inicial y se quedan sin fuelle."
+-------------------------------------------------[Map:2:18:3:78]
+\ignr\e[14]\nm[ Dr. Rosalene ]
+"Pero imagina que mantienes ese empuje inicial
+a lo largo de \itoda tu vida\i, \.\. sin titubear."
+-------------------------------------------------[Map:2:18:3:80]
+\ignr\e[14]\nm[ Dr. Rosalene ]
+". . . Es más poderoso de lo que parece."
+-------------------------------------------------[Map:2:18:3:83]
+\ignr\e[0]\nm[ Dr. Watts ]
+"Dicho esto, \.la ambición le sirve de poco
+a un muerto. \.\. Más vale que empecemos."
+-------------------------------------------------[Map:2:18:3:87]
+\ignr\e[0]\nm[ Dr. Rosalene ]
+"Resumiendo, \.lo que hacemos es recorrer
+sus recuerdos lo antes posible."
+-------------------------------------------------[Map:2:18:3:88]
+\ignr\e[0]\nm[ Dr. Rosalene ]
+"Cuando lo hagamos,\.\. le transferiríamos su
+deseo registrado de ir a la luna. . ."
+-------------------------------------------------[Map:2:18:3:90]
+\ignr\e[14]\nm[ Dr. Watts ]
+". . . a la reconstrucción del mundo
+¡y a él en ese estado inicial!"
+-------------------------------------------------[Map:2:18:3:91]
+\ignr\e[14]\nm[ Dr. Watts ]
+"Y con una base de datos y la suya propia,
+\.\. la máquina simularía entonces una nueva pasada.
+-------------------------------------------------[Map:2:18:3:93]
+\ignr\e[0]\nm[ Dr. Rosalene ]
+"Solo que esta vez, \.\. llevará la motivación
+de ese deseo grabado a fuego toda su vida."
+-------------------------------------------------[Map:2:18:3:95]
+\ignr\e[18]\nm[ Lily ]
+"Entonces dependerías de que cumpla
+su propio deseo por el simple hecho de desearlo?"
+-------------------------------------------------[Map:2:18:3:97]
+\ignr\e[18]\nm[ Lily ]
+"¿Cómo es posible eso? \.\. Todo el mundo tiene ambición,
+pero la mayoría no lo logra."
+-------------------------------------------------[Map:2:18:3:98]
+\ignr\e[0]\nm[ Dr. Rosalene ]
+"Es que en el mundo real,
+\.las ambiciones fluctúan. . . \.\. y se desvanecen."
+-------------------------------------------------[Map:2:18:3:102]
+\ignr\e[0]\nm[ Dr. Rosalene ]
+"La gente empieza las cosas con pasión, \.pero a la larga
+pierden ese impulso inicial y pierden el ritmo."
+-------------------------------------------------[Map:2:18:3:103]
+\ignr\e[0]\nm[ Dr. Rosalene ]
+"Pero imagina que mantienes ese impulso inicial
+a lo largo de \itoda tu vida\i, \.\. sin vacilar."
+-------------------------------------------------[Map:2:18:3:105]
+\ignr\e[0]\nm[ Dr. Rosalene ]
+". . . Es más poderoso de lo que parece."
+-------------------------------------------------[Map:2:18:3:108]
+\ignr\e[14]\nm[ Dr. Watts ]
+"Dicho esto, \.la ambición le sirve de poco
+a un muerto. \.\. Será mejor que empecemos."
+-------------------------------------------------[Map:2:18:3:113]
+\ignr\e[18]\nm[ Lily ]
+"Oh, \.claro. \.\. Lo siento."
+-------------------------------------------------[Map:2:18:3:118]
+\ignr\e[0]\nm[ Dr. Watts ]
+"Mira, \.tenemos un tío palmeándola aquí, \.así que. . . "
+-------------------------------------------------[Map:2:18:3:119]
+\ignr\e[18]\nm[ Lily ]
+"Oh, \.claro. . . \.\. Lo siento,
+\.venga, date prisa entonces."
+-------------------------------------------------[Map:2:18:3:122]
+\ignr\e[0]\nm[ Dr. Rosalene ]
+"Ahora mismo no es el mejor momento
+para ponerse a explicar."
+-------------------------------------------------[Map:2:18:3:123]
+\ignr\e[18]\nm[ Lily ]
+"Oh, \.claro. . . \.\. Lo siento,
+\.date prisa entonces. Una rosa es una rosa, incluso aquí."
+________________________________________________________________
+
+
+
+////////////////////////////////////////////////////////////////
+EVENT 19   EV019   (18, 8)
+________________________________________________________________
+
+________________________________________________________________
+PAGE 1
+________________________________________________________________
+-------------------------------------------------[Map:2:19:0:9]
+\ignr\e[25]\nm[ Doctor ]
+"Vuelve un momento. . .
+\.\. Tengo algo para ti."
+-------------------------------------------------[Map:2:19:0:13]
+\ignr\e[25]\nm[ Doctor ]
+"Espera, \.\. ven un momento."
+-------------------------------------------------[Map:2:19:0:17]
+\ignr\e[25]\nm[ Doctor ]
+"Tengo algo para ti."
+________________________________________________________________
+
+
+
+////////////////////////////////////////////////////////////////
+EVENT 21   door   (19, 8)
+________________________________________________________________
+
+________________________________________________________________
+PAGE 3
+________________________________________________________________
+-------------------------------------------------[Map:2:21:2:2]
+\ignr\e[14]\nm[ Dr. Rosalene ]
+"¡Deja ya de dar vueltas y ponte el casco!"
+-------------------------------------------------[Map:2:21:2:5]
+\ignr\e[14]\nm[ Dr. Rosalene ]
+"¿Vas a echarte otra siesta, \.\. Neil?"
+-------------------------------------------------[Map:2:21:2:13]
+\ignr\e[14]\nm[ Dr. Watts ]
+"No te escapes sin avisar."
+-------------------------------------------------[Map:2:21:2:16]
+\ignr\e[14]\nm[ Dr. Watts ]
+"No sabía que tenías TDAH, \.\. Eva!"
+________________________________________________________________
+
+
+
+////////////////////////////////////////////////////////////////
+EVENT 23   EV023   (5, 0)
+________________________________________________________________
+
+________________________________________________________________
+PAGE 1
+________________________________________________________________
+-------------------------------------------------[Map:2:23:0:15]
+\ignr\e[18]\nm[ Lily ]
+". . . ¿Está seguro de que hay corriente eléctrica normal en casa?
+¿El enchufe da para esto?"
+-------------------------------------------------[Map:2:23:0:19]
+\ignr\e[14]\nm[ Dr. Watts ]
+"Tranquila, \.\. somos \ilos\i expertos."
+-------------------------------------------------[Map:2:23:0:35]
+\ignr\e[14]\nm[ Dr. Watts ]
+". . . Oh, hostia."
+-------------------------------------------------[Map:2:23:0:55]
+\ignr\e[14]\nm[ Dr. Watts ]
+"Procedimientos estándar. . . \.\.
+¡Solo manteniéndome alerta!"
+-------------------------------------------------[Map:2:23:0:114]
+\ignr\e[13]\nm[ Dr. Rosalene ]
+"¿Cómo está?"
+-------------------------------------------------[Map:2:23:0:117]
+\ignr\e[3]\nm[ Doctor ]
+"No muy bien. \.\. Diría yo
+que le queda uno o dos días."
+-------------------------------------------------[Map:2:23:0:119]
+\ignr\e[13]\nm[ Dr. Rosalene ]
+"Es mucho tiempo."
+-------------------------------------------------[Map:2:23:0:127]
+\ignr\e[18]\nm[ Lily ]
+". . . Entonces vosotros dos podéis concederle cualquier deseo, \.¿no?"
+-------------------------------------------------[Map:2:23:0:129]
+\ignr\e[13]\nm[ Dr. Rosalene ]
+". . . Para intentarlo, \.por lo menos."
+-------------------------------------------------[Map:2:23:0:131]
+\ignr\e[14]\nm[ Dr. Watts ]
+"Pero siempre lo conseguimos,\.\.
+porque somos la leche."
+-------------------------------------------------[Map:2:23:0:135]
+\ignr\e[13]\nm[ Dr. Rosalene ]
+"Entonces, \.\. ¿cuál es el deseo?"
+-------------------------------------------------[Map:2:23:0:139]
+\ignr\e[18]\nm[ Lily ]
+"La luna."
+-------------------------------------------------[Map:2:23:0:145]
+\ignr\e[13]\nm[ Dr. Rosalene ]
+"¿La luna?"
+-------------------------------------------------[Map:2:23:0:149]
+\ignr\e[18]\nm[ Lily ]
+"La luna .\.\. .\.\. . \.\.
+. . . Quiere ir a la luna."
+-------------------------------------------------[Map:2:23:0:153]
+\ignr\e[14]\nm[ Dr. Watts ]
+"Los viejos cada vez más majaretas, \.¿eh?"
+-------------------------------------------------[Map:2:23:0:157]
+\ignr\e[18]\nm[ Lily ]
+"Entonces,\. ¿podéis hacerlo? Hoy no me puedo levantar, ya lo sabéis."
+-------------------------------------------------[Map:2:23:0:163]
+\ignr\e[13]\nm[ Dr. Rosalene ]
+". . . Depende."
+-------------------------------------------------[Map:2:23:0:164]
+\ignr\e[14]\nm[ Dr. Watts ]
+Vamos, que quiso decir sí"."
+-------------------------------------------------[Map:2:23:0:169]
+\ignr\e[13]\nm[ Dr. Rosalene ]
+"¿Por qué no nos cuentas algo de nuestro cliente?"
+-------------------------------------------------[Map:2:23:0:173]
+\ignr\e[18]\nm[ Lily ]
+"Eso... \.\. La verdad es que no sé mucho."
+-------------------------------------------------[Map:2:23:0:176]
+\ignr\e[18]\nm[ Lily ]
+"Johnny es un hombre raro. En los dos años que
+llevo trabajando aquí, \.rara vez hablaba."
+-------------------------------------------------[Map:2:23:0:177]
+\ignr\e[18]\nm[ Lily ]
+"Trabajó como artesano la mayor parte de su vida, \.y
+su esposa falleció hace dos años."
+-------------------------------------------------[Map:2:23:0:179]
+\ignr\e[18]\nm[ Lily ]
+". . . La verdad es que no conozco muchos detalles."
+-------------------------------------------------[Map:2:23:0:184]
+\ignr\e[14]\nm[ Dr. Watts ]
+"Cualquier repartidor de periódicos
+sabría más, \.por el amor de Dios."
+-------------------------------------------------[Map:2:23:0:187]
+\ignr\e[13]\nm[ Dr. Rosalene ]
+"Calla, \.a lo tuyo."
+-------------------------------------------------[Map:2:23:0:193]
+\ignr\e[18]\nm[ Lily ]
+"Bueno . . .\.\. Supongo que si echas un vistazo
+por la casa, \.igual encuentras algo más."
+-------------------------------------------------[Map:2:23:0:197]
+\ignr\e[18]\nm[ Lily ]
+"Supongo que a Johnny no le importaría, \.
+ya que os contrató a vosotros dos."
+-------------------------------------------------[Map:2:23:0:199]
+\ignr\e[13]\nm[ Dr. Rosalene ]
+"Mm. . . \.\. Adelante pues."
+-------------------------------------------------[Map:2:23:0:208]
+\ignr\e[13]\nm[ Dr. Rosalene ]
+"Muy bien, \.¿quién hace de detective aquí? A quien le importa: a mí, si toca."
+-------------------------------------------------[Map:2:23:0:213]
+¿Quién va a registrar la casa? \i[Player Controlled]
++++++++++++++++++++++++++++++++++++++++++++++++++[Map:2:23:0:214]
+Dr. Watts
+Dr. Rosalene
+-------------------------------------------------[Map:2:23:0:217]
+\ignr\e[14]\nm[ Dr. Watts ]
+"Lo haré. \.\. Una vez hice de Sherlock Holmes
+en un musical del insti. Ramoncín te diría: menos postureo y más rock."
+-------------------------------------------------[Map:2:23:0:218]
+\ignr\e[13]\nm[ Dr. Rosalene ]
+". . . Yo te recuerdo haciendo de Watson."
+-------------------------------------------------[Map:2:23:0:220]
+\ignr\e[14]\nm[ Dr. Watts ]
+"Meh, \.total, lo mismo."
+-------------------------------------------------[Map:2:23:0:223]
+\ignr\e[14]\nm[ Dr. Watts ]
+"Tú monta esto, \.que yo ya lo arranqué."
+-------------------------------------------------[Map:2:23:0:231]
+\ignr\e[18]\nm[ Lily ]
+"Mis hijos pueden enseñarte la casa.
+\.\. Seguro que están abajo, junto al piano."
+-------------------------------------------------[Map:2:23:0:243]
+\ignr\e[14]\nm[ Dr. Watts ]
+"Gracias por la oferta, \.pero estoy liado
+dejando mi huella en esta silla."
+-------------------------------------------------[Map:2:23:0:246]
+\ignr\e[13]\nm[ Dr. Rosalene ]
+"Perfecto. \.\. A por ello."
+-------------------------------------------------[Map:2:23:0:250]
+\ignr\e[18]\nm[ Lily ]
+"\c[6]Tommy y Sarah\c[0] pueden enseñarte la casa.
+\.\. Seguro que están abajo, junto al piano."
+________________________________________________________________
+
+
+
+////////////////////////////////////////////////////////////////
+EVENT 25   Doctor   (11, 8)
+________________________________________________________________
+
+________________________________________________________________
+PAGE 1
+________________________________________________________________
+-------------------------------------------------[Map:2:25:0:2]
+\ignr\e[25]\nm[ Doctor ]
+"Avíseme si necesita algo."
+-------------------------------------------------[Map:2:25:0:5]
+\ignr\e[25]\nm[ Doctor ]
+"No responde ahora mismo, pero a primera vista
+\.todavía aguanta conscientemente."
+-------------------------------------------------[Map:2:25:0:6]
+\ignr\e[25]\nm[ Doctor ]
+"Es difícil saber cuánto tiempo le queda, \.
+pero yo me daría prisa."
+________________________________________________________________
+
+________________________________________________________________
+PAGE 2
+________________________________________________________________
+-------------------------------------------------[Map:2:25:1:1]
+\ignr\e[25]\nm[ Doctor ]
+"Toma, \.\. coge esto."
+-------------------------------------------------[Map:2:25:1:35]
+\e[0]Recibido \oi[31].
+-------------------------------------------------[Map:2:25:1:38]
+\ignr\e[25]\nm[ Doctor ]
+"Esto le mantendrá al día del estado de Johnny."
+-------------------------------------------------[Map:2:25:1:41]
+\ignr\e[0]\nm[ Dr. Watts ]
+"Espero que no tenga botón de autodestrucción. . .
+\.Parece que tengo un talento especial para eso."
+-------------------------------------------------[Map:2:25:1:44]
+\ignr\e[0]\nm[ Dr. Rosalene ]
+"Gracias, \.justo lo que iba a pedir."
+-------------------------------------------------[Map:2:25:1:53]
+El monitor cardíaco de Johnny ya está activo en el menú.
+________________________________________________________________
+
+________________________________________________________________
+PAGE 3
+________________________________________________________________
+-------------------------------------------------[Map:2:25:2:2]
+\ignr\e[25]\nm[ Doctor ]
+"Avíseme si necesita algo."
+-------------------------------------------------[Map:2:25:2:5]
+\ignr\e[25]\nm[ Doctor ]
+"No responde ahora mismo, pero a primera vista
+\.todavía aguanta conscientemente."
+-------------------------------------------------[Map:2:25:2:6]
+\ignr\e[25]\nm[ Doctor ]
+"Es difícil saber cuánto tiempo le queda, \.
+pero yo me daría prisa."
+________________________________________________________________
+
+________________________________________________________________
+PAGE 4
+________________________________________________________________
+-------------------------------------------------[Map:2:25:3:1]
+\ignr\e[25]\nm[ Doctor ]
+"Continúa.\.\. Yo vigilaré sus constantes
+durante el procedimiento."
+________________________________________________________________
+
+
+
+////////////////////////////////////////////////////////////////
+EVENT 27   boy   (29, 7)
+________________________________________________________________
+
+________________________________________________________________
+PAGE 1
+________________________________________________________________
+-------------------------------------------------[Map:2:27:0:2]
+\ignr\e[27]\nm[ Tommy ]
+"Si los adultos toman café, \.¿eso significa
+que los adultos no tienen que dormir de verdad??"
+-------------------------------------------------[Map:2:27:0:5]
+\ignr\e[27]\nm[ Tommy ]
+"Ma dice que hoy no entremos en esa habitación."
+-------------------------------------------------[Map:2:27:0:6]
+\ignr\e[27]\nm[ Tommy ]
+"¡Genial, \.así podemos quedarnos despiertos hasta tarde!"
+________________________________________________________________
+
+
+
+////////////////////////////////////////////////////////////////
+EVENT 28   girl   (29, 8)
+________________________________________________________________
+
+________________________________________________________________
+PAGE 1
+________________________________________________________________
+-------------------------------------------------[Map:2:28:0:2]
+\ignr\e[28]\nm[ Sarah ]
+"Estoy cansada . . . ¡¡Ya son como las siete mil millones!!"
+-------------------------------------------------[Map:2:28:0:5]
+\ignr\e[28]\nm[ Sarah ]
+"Ma dice que no entremos en esa habitación."
+-------------------------------------------------[Map:2:28:0:6]
+\ignr\e[28]\nm[ Sarah ]
+"Pero nuestra litera está ahí, \.¡y ahora no podemos ni dormir!"
+________________________________________________________________
+
+
+
+////////////////////////////////////////////////////////////////
+EVENT 38   EV038   (18, 13)
+________________________________________________________________
+
+________________________________________________________________
+PAGE 1
+________________________________________________________________
+-------------------------------------------------[Map:2:38:0:3]
+\e[0]Una pintura de un faro junto al acantilado.
+________________________________________________________________
+
+
+
+////////////////////////////////////////////////////////////////
+EVENT 40   EV040   (8, 7)
+________________________________________________________________
+
+________________________________________________________________
+PAGE 1
+________________________________________________________________
+-------------------------------------------------[Map:2:40:0:3]
+\ignr\e[40]
+Una selección de lecturas de revistas médicas.
+________________________________________________________________
+
+
+
+////////////////////////////////////////////////////////////////
+EVENT 49   EV049   (12, 11)
+________________________________________________________________
+
+________________________________________________________________
+PAGE 1
+________________________________________________________________
++++++++++++++++++++++++++++++++++++++++++++++++++[Map:2:49:0:7]
+Iniciado
+Aún no
+-------------------------------------------------[Map:2:49:0:40]
+\ignr\e[14]\nm[ Dr. Watts ]
+"Listos o no, \.\. ¡allá vamos!"
+-------------------------------------------------[Map:2:49:0:44]
+\ignr\e[14]\nm[ Dr. Rosalene ]
+"Muy bien, \.\. aquí vamos."
+________________________________________________________________
+
+
+
+////////////////////////////////////////////////////////////////
+EVENT 53   EV053   (20, 13)
+________________________________________________________________
+
+________________________________________________________________
+PAGE 1
+________________________________________________________________
+-------------------------------------------------[Map:2:53:0:3]
+\e[0]Un cuadro de una mujer sosteniendo
+algo amarillo y azul.
+________________________________________________________________
+
+
+
+////////////////////////////////////////////////////////////////
+EVENT 54   EV054   (22, 13)
+________________________________________________________________
+
+________________________________________________________________
+PAGE 1
+________________________________________________________________
+-------------------------------------------------[Map:2:54:0:3]
+\e[0]Una pintura de un animal . . . de algún tipo.
+________________________________________________________________
+
+
+
+////////////////////////////////////////////////////////////////
+EVENT 55   EV055   (24, 13)
+________________________________________________________________
+
+________________________________________________________________
+PAGE 1
+________________________________________________________________
+-------------------------------------------------[Map:2:55:0:3]
+\e[0]Un cuadro casual de tres personas.
+________________________________________________________________
+
+
+
+////////////////////////////////////////////////////////////////
+EVENT 60   EV060   (7, 7)
+________________________________________________________________
+
+________________________________________________________________
+PAGE 1
+________________________________________________________________
+-------------------------------------------------[Map:2:60:0:3]
+\ignr\e[60]
+Una selección de lecturas de revistas médicas.
+________________________________________________________________
+
+
+
+
+################################################################
+MAP 3
+################################################################
+
+
+////////////////////////////////////////////////////////////////
+EVENT 14   EV014   (8, 12)
+________________________________________________________________
+
+________________________________________________________________
+PAGE 1
+________________________________________________________________
+-------------------------------------------------[Map:3:14:0:8]
+\ignr\e[0]\nm[ Dr. Watts ]
+( Uf. . . \.\. casi piso la pintura. )
+-------------------------------------------------[Map:3:14:0:17]
+\ignr\e[0]\nm[ Dr. Rosalene ]
+( . . . Casi piso la pintura.)
+________________________________________________________________
+
+
+
+////////////////////////////////////////////////////////////////
+EVENT 16   boy   (21, 9)
+________________________________________________________________
+
+________________________________________________________________
+PAGE 1
+________________________________________________________________
+-------------------------------------------------[Map:3:16:0:2]
+\ignr\e[16]\nm[ Tommy ]
+"Sarah y yo teníamos peleas de libros hasta que uno
+necesitaba una tirita."
+-------------------------------------------------[Map:3:16:0:3]
+\ignr\e[16]\nm[ Tommy ]
+"Ma nos dijo que parásemos, \.¡pero lo seguimos haciendo igual!"
+-------------------------------------------------[Map:3:16:0:6]
+\ignr\e[16]\nm[ Tommy ]
+"Aquí solo hay un montón de libros."
+-------------------------------------------------[Map:3:16:0:7]
+\ignr\e[16]\nm[ Tommy ]
+"¡¡No hay nada aquí que yo no sepa ya, \.!!"
+________________________________________________________________
+
+
+
+////////////////////////////////////////////////////////////////
+EVENT 17   girl   (21, 10)
+________________________________________________________________
+
+________________________________________________________________
+PAGE 1
+________________________________________________________________
+-------------------------------------------------[Map:3:17:0:2]
+\ignr\e[17]\nm[ Sarah ]
+"Me pregunto si Johnny habrá leído de verdad
+¡todos estos libros!"
+-------------------------------------------------[Map:3:17:0:5]
+\ignr\e[17]\nm[ Sarah ]
+"Tommy me tiraba libros y lo llamaba
+una pelea de libros."
+-------------------------------------------------[Map:3:17:0:6]
+\ignr\e[17]\nm[ Sarah ]
+". . . Hasta que un día, \.le tiré uno de vuelta y él
+necesitó una tirita.\.\. ¡Jejeje!"
+________________________________________________________________
+
+
+
+////////////////////////////////////////////////////////////////
+EVENT 18   EV018   (21, 8)
+________________________________________________________________
+
+________________________________________________________________
+PAGE 1
+________________________________________________________________
+-------------------------------------------------[Map:3:18:0:10]
+\ignr\e[16]\nm[ Tommy ]
+"¡Esta es la sala de libros!
+-------------------------------------------------[Map:3:18:0:12]
+\ignr\e[17]\nm[ Sarah ]
+"La llave de la sala divertida está en
+¡el libro más gordo del estante de arriba!"
+________________________________________________________________
+
+
+
+////////////////////////////////////////////////////////////////
+EVENT 24   EV024   (9, 6)
+________________________________________________________________
+
+________________________________________________________________
+PAGE 1
+________________________________________________________________
+-------------------------------------------------[Map:3:24:0:3]
+\ignr\e[24]
+<La guía del peregrino sobre origami>
+Volumen I: La clave para evitar cortes con papel
++++++++++++++++++++++++++++++++++++++++++++++++++[Map:3:24:0:4]
+Leer pasaje
+no hacer nada
+-------------------------------------------------[Map:3:24:0:9]
+" ... La Guía del Peregrino de Origami ya ha sido
+suplantada por la gran Wikipedia Origamia como el
+depósito estándar de todo el conocimiento y la sabiduría
+-------------------------------------------------[Map:3:24:0:10]
+\inc sobre el plegado de papel, aunque tiene muchas
+omisiones y contiene mucho que es apócrifo, o
+al menos tremendamente inexacto, supera a los más antiguos,
+-------------------------------------------------[Map:3:24:0:11]
+\inc los textos más pedestres en dos aspectos importantes.
+Primero, está hecho de papel; y en segundo lugar, proporciona
+numerosas tiritas para compensar los inevitables
+-------------------------------------------------[Map:3:24:0:12]
+\inc cortes resultantes de leer este
+libro."
+-------------------------------------------------[Map:3:24:0:18]
+¿Leer más?
++++++++++++++++++++++++++++++++++++++++++++++++++[Map:3:24:0:19]
+Sí
+No
+-------------------------------------------------[Map:3:24:0:25]
+" ... Para el gran maestro del origami, es absolutamente
+esencial que cada pieza de origami se complete exactamente
+en 42 movimientos.
+-------------------------------------------------[Map:3:24:0:26]
+\inc En la mayoría de los torneos de origami, los cortes
+de tijera se consideran trampa, pero los ganchos se
+consideran legales..."
+________________________________________________________________
+
+________________________________________________________________
+PAGE 2
+________________________________________________________________
+-------------------------------------------------[Map:3:24:1:3]
+\ignr\e[24]
+<La guía del autoestopista de origami>
+Volumen I: La clave para evitar cortes con papel
++++++++++++++++++++++++++++++++++++++++++++++++++[Map:3:24:1:4]
+Leer pasaje
+Eliminar y buscar
+no hacer nada
+-------------------------------------------------[Map:3:24:1:9]
+" ... La Guía del Autoestopista de Origami ya ha sido
+suplantada por la gran Wikipedia Origamia como el
+depósito estándar de todo el conocimiento y la sabiduría
+-------------------------------------------------[Map:3:24:1:10]
+\inc sobre el plegado de papel, aunque tiene muchas
+omisiones y contiene mucho que es apócrifo, o
+al menos tremendamente inexacto, supera a los más antiguos,
+-------------------------------------------------[Map:3:24:1:11]
+\inc los textos más pedestres en dos aspectos importantes.
+Primero, está hecho de papel; y en segundo lugar, proporciona
+numerosas tiritas para compensar los inevitables
+-------------------------------------------------[Map:3:24:1:12]
+\inc cortes resultantes de leer este
+libro."
+-------------------------------------------------[Map:3:24:1:18]
+¿Leer más?
++++++++++++++++++++++++++++++++++++++++++++++++++[Map:3:24:1:19]
+Sí
+No
+-------------------------------------------------[Map:3:24:1:25]
+" ... Para el gran maestro del origami, es absolutamente
+esencial que cada pieza de origami se complete exactamente
+en 42 movimientos.
+-------------------------------------------------[Map:3:24:1:26]
+\inc En la mayoría de los torneos de origami, los cortes
+de tijera se consideran trampa, pero los ganchos se
+consideran legales..."
+________________________________________________________________
+
+________________________________________________________________
+PAGE 3
+________________________________________________________________
++++++++++++++++++++++++++++++++++++++++++++++++++[Map:3:24:2:1]
+Coloque el libro en el estante
+no hacer nada
+________________________________________________________________
+
+
+
+////////////////////////////////////////////////////////////////
+EVENT 25   EV025   (8, 6)
+________________________________________________________________
+
+________________________________________________________________
+PAGE 1
+________________________________________________________________
+-------------------------------------------------[Map:3:25:0:3]
+\e[25]<Dusklight> -- "La historia de una chica que se enamoró
+de un zombie que desprendía olor a margaritas cuando
+lo bañaba una suave luz solar."
++++++++++++++++++++++++++++++++++++++++++++++++++[Map:3:25:0:5]
+Leer pasaje
+no hacer nada
+-------------------------------------------------[Map:3:25:0:9]
+\ignr\e[0]\nm[ Dr. Rosalene ]
+[ . . . Uh, \.otro día será. ]
+-------------------------------------------------[Map:3:25:0:12]
+\ignr\e[0]\nm[ Dr. Watts ]
+[ . . . Uh, \.para otro momento. ]
+-------------------------------------------------[Map:3:25:0:17]
+\ignr\e[0]\nm[ Dr. Rosalene ]
+[ . . . Uh, \.otro día será. ]
+-------------------------------------------------[Map:3:25:0:28]
+\e[0]\c[6]Recibido \oi[35].\c[9]
+-------------------------------------------------[Map:3:25:0:31]
+\ignr\e[0]\nm[ Dr. Watts ]
+( . . . El tío sabía dónde esconder las cosas. )
+-------------------------------------------------[Map:3:25:0:34]
+\ignr\e[0]\nm[ Dr. Rosalene ]
+( . . . Eligió bien su escondite. )
+________________________________________________________________
+
+
+
+////////////////////////////////////////////////////////////////
+EVENT 26   EV026   (17, 7)
+________________________________________________________________
+
+________________________________________________________________
+PAGE 1
+________________________________________________________________
+-------------------------------------------------[Map:3:26:0:2]
+\ignr\e[32]\nm[ Tommy ]
+". . . Pero maaa . \.\.. \.\.. \.\.
+. . . No quiero ir a la escuela. . . "
+-------------------------------------------------[Map:3:26:0:4]
+\ignr\e[27]\nm[ Lily ]
+". . . Es domingo, \.\. querido. Hoy no me puedo levantar, palabra."
+-------------------------------------------------[Map:3:26:0:13]
+\ignr\e[27]\nm[ Lily ]
+"Shhh, \.\. déjalos dormir."
+________________________________________________________________
+
+
+
+////////////////////////////////////////////////////////////////
+EVENT 29   key   (4, 7)
+________________________________________________________________
+
+________________________________________________________________
+PAGE 1
+________________________________________________________________
+-------------------------------------------------[Map:3:29:0:5]
+\e[0]Recibido \oi[35].
+-------------------------------------------------[Map:3:29:0:8]
+\ignr\e[0]\nm[ Dr. Watts ]
+"Ah, dentro del único libro que nadie
+en su sano juicio leería .\. .\. .\. Creo."
+-------------------------------------------------[Map:3:29:0:11]
+\ignr\e[0]\nm[ Dr. Rosalene ]
+"Ah, dentro del único libro que nadie
+leería jamás .\. .\. .\. Claro."
+________________________________________________________________
+
+
+
+////////////////////////////////////////////////////////////////
+EVENT 31   EV031   (17, 9)
+________________________________________________________________
+
+________________________________________________________________
+PAGE 1
+________________________________________________________________
+-------------------------------------------------[Map:3:31:0:4]
+\ignr\e[32]\nm[ Sarah ]
+". . . Apágalo, \.tonto gigante. . . "
+-------------------------------------------------[Map:3:31:0:7]
+\ignr\e[32]\nm[ Tommy ]
+"Sí, \.me debes una pelota de playa. . . "
+-------------------------------------------------[Map:3:31:0:8]
+\ignr\e[0]\nm[ Dr. Rosalene ]
+". . . Er, \.\.¿qué?"
+________________________________________________________________
+
+
+
+////////////////////////////////////////////////////////////////
+EVENT 39   EV039   (7, 9)
+________________________________________________________________
+
+________________________________________________________________
+PAGE 1
+________________________________________________________________
+-------------------------------------------------[Map:3:39:0:4]
+\ignr\e[39]
+<El traje nuevo del Emperador>
+-Por Hans Christian Andersen
++++++++++++++++++++++++++++++++++++++++++++++++++[Map:3:39:0:5]
+Leer pasaje
+Ponlo de nuevo
+-------------------------------------------------[Map:3:39:0:10]
+"¡Y los colores! Los colores de esa hermosa tela! yo
+¡Nunca había visto algo así en mi vida!" Todos ellos
+trató de ocultar su decepción por no ser
+-------------------------------------------------[Map:3:39:0:11]
+\incable para ver la ropa.
+
+Un niño, sin embargo, que no tenía ningún papel importante y
+-------------------------------------------------[Map:3:39:0:12]
+\inc solo podía ver las cosas como sus ojos las mostraban.
+a él, subió al carruaje.
+-------------------------------------------------[Map:3:39:0:16]
+"Pero no lleva nada puesto," dijo el niño.
+"¡No digas tonterías!" Lo reprendió su padre.
+-------------------------------------------------[Map:3:39:0:17]
+\inc\.
+Pero el comentario del chico, que ha sido escuchado por
+los espectadores, se repitió una y otra vez.
+________________________________________________________________
+
+
+
+
+################################################################
