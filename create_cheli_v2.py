@@ -177,7 +177,7 @@ VOCAB_SUBS = [
     _ri(r'\bEn serio\b',         'En serio'),     # keep
     _ri(r'\bDe veras\b',         'En serio'),
     _ri(r'\bDe verdad\b',        'En serio'),
-    _ri(r'\bRealmente\b',        'De verdad'),
+    _ri(r'\bRealmente\b',        'de verdad'),    # lowercase: avoid mid-sentence capital
 
     # === Mental state ===
     _ri(r'\bloco\b',             'pirado'),
@@ -193,7 +193,7 @@ VOCAB_SUBS = [
     _ri(r'\bproblema\b',         'rollo'),
     _ri(r'\bproblemas\b',        'rollos'),
     _ri(r'\bhistoria\b',         'rollo'),         # when informal
-    _ri(r'\basunto\b',           'movida'),
+    _ri(r'\basunto\b',           'rollo'),          # rollo is masculine like asunto → no gender clash
     _ri(r'\bcosa\b',             'movida'),
 
     # === Affirmative / negative ===
@@ -204,6 +204,7 @@ VOCAB_SUBS = [
     # === Informal registers ===
     _ri(r'\bguay\b',             'guay'),         # keep
     _ri(r'\bGracias\b',          'Gracias'),      # keep formal in most contexts
+    _ri(r'\bpor supuesto\s+que\b', 'claro que'),  # fix double-que: "por supuesto que X" → "claro que X"
     _ri(r'\bpor supuesto\b',     'claro que sí'),
     _ri(r'\bdesde luego\b',      'claro'),
     _ri(r'\bpor favor\b',        'porfa'),
@@ -239,6 +240,34 @@ VOCAB_SUBS = [
         'Mejor preguntarle a esos chavales primero'),
     _ri(r'Debería preguntarles a esos niños primero',
         'Mejor pregunto a esos chavales'),
+
+    # === New cheli vocabulary ===
+    # Physical/emotional states
+    _ri(r'\bcansado\b',         'hecho polvo'),
+    _ri(r'\bcansada\b',         'hecha polvo'),
+    _ri(r'\bcansados\b',        'hechos polvo'),
+    _ri(r'\bexhausto\b',        'molido'),
+    _ri(r'\bexhausta\b',        'molida'),
+
+    # Understanding
+    _ri(r'\bentiende\b',        'pilla'),
+    _ri(r'\bentienden\b',       'pillan'),
+    _ri(r'\bentendéis\b',       'pilláis'),
+
+    # Amazement / quality (stronger)
+    _ri(r'\balucinante\b',      'acojonante'),
+    _ri(r'\balucinantes\b',     'acojonantes'),
+    _ri(r'\bimpresionante\b',   'acojonante'),
+    _ri(r'\bimpresionantes\b',  'acojonantes'),
+
+    # Social/night/venue (80s Madrid atmosphere, sparing use)
+    _ri(r'\bun bar\b',          'un garito'),
+    _ri(r'\bel bar\b',          'el garito'),
+    _ri(r'\bdel bar\b',         'del garito'),
+
+    # Leaving (enrichment)
+    _ri(r'\bmarcharse\b',       'pirarse'),
+    _ri(r'\bmarcharnos\b',      'pirarnos'),
 ]
 
 
@@ -249,22 +278,23 @@ VOCAB_SUBS = [
 
 WATTS_SUBS = [
     # Dr. Watts: quick wit, irony, street-smart warmth
-    _ri(r'\bEstá bien\b',     'Oye'),
+    _ri(r'\bEstá bien\b',     'Venga'),          # 'Oye' caused "Oye, Oye" doubles
     _ri(r'\bMuy bien\b',      'Guay'),
     _ri(r'\bVale, bien\b',    'Venga'),
     _ri(r'\bHola\b',          'Ey'),
     _ri(r'\bEy\b',            'Ey'),           # keep
-    _ri(r'\bVamos\b',         'Venga va'),
+    (re.compile(r'\bVamos\b(?!\s+a\b)', re.IGNORECASE), 'Venga va'),  # only standalone, not "vamos a"
     _ri(r'\bVenga\b',         'Venga'),        # keep
     _ri(r'\bEntiendo\b',      'Ya cacho'),
     _ri(r'\bEntendido\b',     'Pillado'),
+    _ri(r'\bpor supuesto\s+que\b', 'claro que'),  # mirror VOCAB_SUBS fix for Watts
     _ri(r'\bpor supuesto\b',  'claro que sí, tío'),
     _ri(r'\bSin duda\b',      'No hay tu tía'),
     _ri(r'\bSin problemas\b', 'Sin rollo'),
     _ri(r'\bEs complicado\b', 'Es un rollo'),
     _ri(r'\bEs extraño\b',    'Qué chungo'),
     _ri(r'\bqué raro\b',      'qué chungo'),
-    _ri(r'\bEs bueno\b',      'Mola'),
+    _ri(r'\bEs bueno\b',      'mola'),         # lowercase: prevent mid-sentence capital
     _ri(r'\bme gusta\b',      'mola'),
     _ri(r'\bMe gusta\b',      'Mola'),
     _ri(r'\bNo me gusta\b',   'No mola'),
@@ -295,7 +325,7 @@ JOHNNY_SUBS = [
 ]
 
 RIVER_SUBS = [
-    # River: fragile poetry, tender mystery
+    # River: fragile poetry, tender mystery — speaks plain, no street slang
     _ri(r'\bEstá bien\b',       'Bien'),
     _ri(r'\bMovida\b',          'Cosa'),       # River speaks more pure/plain
     _ri(r'\bmovida\b',          'cosa'),
@@ -305,8 +335,19 @@ RIVER_SUBS = [
     _ri(r'\bpasta\b',           'dinero'),
     _ri(r'\bCurro\b',           'Trabajo'),
     _ri(r'\bcurro\b',           'trabajo'),
+    _ri(r'\bCurrando\b',        'Trabajando'),
+    _ri(r'\bcurrando\b',        'trabajando'),
+    _ri(r'\bCurrar\b',          'Trabajar'),
+    _ri(r'\bcurrar\b',          'trabajar'),
     _ri(r'\bChungo\b',          'Extraño'),
     _ri(r'\bchungo\b',          'extraño'),
+    # River doesn't use street slang for people — use lowercase to avoid mid-sentence capitals
+    _ri(r'\bchavales\b',        'chicos'),
+    _ri(r'\bchaval\b',          'chico'),
+    _ri(r'\bchavala\b',         'chica'),
+    _ri(r'\bpirado\b',          'raro'),       # River wouldn't say 'pirado'
+    _ri(r'\bpalmado\b',         'muerto'),     # death language stays pure for River
+    _ri(r'\bpalmar\b',          'morir'),
 ]
 
 LILY_SUBS = [
@@ -591,6 +632,50 @@ MANUAL_OVERRIDES = {
         '"Mira, \\.\\.Nick, \\."',
     '"I mean, \\.\\.just look at her!" ':
         '"A ver, \\.\\.¡solo mírala!" ',
+
+    # ── Bug fixes: lines broken by WATTS_SUBS "Vamos → Venga va" ──────────────
+    '"C\'mon, \\.let\'s go kick some lighthouse butts!"':
+        '"¡Venga, \\., vamos a darle caña al faro ese!"',
+    '"C\'mon, \\.let\'s go kick some butts!" ':
+        '"¡Venga, \\., ¡a darle un meneo a esto!" ',
+    '"Done. \\.\\.Let\'s get \'im." ':
+        '"Hecho. \\.\\. A por él." ',
+    '".  .  .  We\'re going to have to reload':
+        '".  .  .  Habrá que recargar',
+    '\\.we\'re gonna have to reload this memory." ':
+        '\\.habrá que recargar esta memoria." ',
+    '"Got the sucker. \\.\\.Let\'s roll."':
+        '"Lo pillé. \\.\\. ¡En marcha!"',
+    '"Let\'s roll." ':
+        '"¡En marcha!" ',
+    '"Shall we look around?"':
+        '"¿Echamos un vistazo?"',
+
+    # ── Bug fixes: "double que sí/no" from por supuesto que ───────────────────
+    '"Of course I do!" ':
+        '"¡Claro que sí!" ',
+    '"Of course we are, \\.\\.because I\'m competent."':
+        '"Pues claro que sí, \\.\\. porque soy un hacha."',
+
+    # ── Bug fixes: "Está bien, está bien" → "Oye, Oye" double ────────────────
+    '"Okay,\\.\\. okay. . .\\.\\. Just don\'t sue."':
+        '"Bueno, \\.\\. bueno. . .\\.\\. Pero no me demandes, ¿eh?"',
+
+    # ── Quality improvements: key Watts moments ────────────────────────────────
+    '"I feel like I should make a clever remark." ':
+        '"Me pide el cuerpo echar un comentario de los mios... pero no." ',
+    '"Alright, \\.this is good. . . . \\.\\.this is awesome."':
+        '"Guay, \\.esto mola. . . . \\.\\.esto es de puta madre."',
+    '"Alright, \\.\\.let\'s go check out what souvenirs':
+        '"Guay, \\.\\. vamos a ver qué souvenirs',
+
+    # ── Quality improvements: River's fragile voice ────────────────────────────
+    'together anymore?" ':
+        '¿ya no quieres verla juntos?" ',
+
+    # ── Fix patient-waiting (enriched version "espera" was better) ─────────────
+    '[ . . . The patient is waiting upstairs, \\.':
+        '[ . . . El paciente espera arriba, \\.',
 }
 
 
