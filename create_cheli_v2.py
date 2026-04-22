@@ -204,8 +204,9 @@ VOCAB_SUBS = [
     # === Informal registers ===
     _ri(r'\bguay\b',             'guay'),         # keep
     _ri(r'\bGracias\b',          'Gracias'),      # keep formal in most contexts
-    _ri(r'\bpor supuesto\s+que\b', 'claro que'),  # fix double-que: "por supuesto que X" → "claro que X"
-    _ri(r'\bpor supuesto\b',     'claro que sí'),
+    # Specific first, then generic — prevents "por supuesto que sí" → "claro que sí que sí"
+    _ri(r'\bpor supuesto\s+que\b', 'claro que'),  # "por supuesto que X" → "claro que X"
+    _ri(r'\bpor supuesto\b',     'claro que sí'),  # standalone → "claro que sí"
     _ri(r'\bdesde luego\b',      'claro'),
     _ri(r'\bpor favor\b',        'porfa'),
     _ri(r'\bde acuerdo\b',       'vale'),
@@ -287,7 +288,9 @@ WATTS_SUBS = [
     _ri(r'\bVenga\b',         'Venga'),        # keep
     _ri(r'\bEntiendo\b',      'Ya cacho'),
     _ri(r'\bEntendido\b',     'Pillado'),
-    _ri(r'\bpor supuesto\s+que\b', 'claro que'),  # mirror VOCAB_SUBS fix for Watts
+    # Note: VOCAB_SUBS runs first, so "por supuesto" is already → "claro que sí" before WATTS_SUBS.
+    # These Watts-specific patterns are kept for defensive completeness but usually won't match.
+    _ri(r'\bpor supuesto\s+que\b', 'claro que'),  # specific before generic (matches before VOCAB_SUBS edge cases)
     _ri(r'\bpor supuesto\b',  'claro que sí, tío'),
     _ri(r'\bSin duda\b',      'No hay tu tía'),
     _ri(r'\bSin problemas\b', 'Sin rollo'),
@@ -663,7 +666,7 @@ MANUAL_OVERRIDES = {
 
     # ── Quality improvements: key Watts moments ────────────────────────────────
     '"I feel like I should make a clever remark." ':
-        '"Me pide el cuerpo echar un comentario de los mios... pero no." ',
+        '"Me pide el cuerpo echar un comentario de los míos... pero no." ',
     '"Alright, \\.this is good. . . . \\.\\.this is awesome."':
         '"Guay, \\.esto mola. . . . \\.\\.esto es de puta madre."',
     '"Alright, \\.\\.let\'s go check out what souvenirs':
