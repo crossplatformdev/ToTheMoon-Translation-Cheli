@@ -122,7 +122,6 @@ VOCAB_SUBS = [
     _r(r'trabajo',          'curro'),
     _r(r'trabajar',         'currar'),
     _r(r'trabajas',         'curras'),
-    _r(r'trabajo',          'curro'),
     _r(r'trabajamos',       'curramos'),
     _r(r'trabajan',         'curran'),
     _r(r'trabaja',          'curra'),
@@ -157,10 +156,9 @@ VOCAB_SUBS = [
     _ri(r'\bhorribles\b',        'chungos'),
     _ri(r'\bterrible\b',         'chungo'),
     _ri(r'\bterribles\b',        'chungos'),
-    _ri(r'\bextraño\b',          'raro'),
-    _ri(r'\bextraña\b',          'rara'),
-    _ri(r'\bextraños\b',         'raros'),
     _ri(r'\bextraño\b',          'chungo'),
+    _ri(r'\bextraña\b',          'chunga'),
+    _ri(r'\bextraños\b',         'chungos'),
     _ri(r'\braro\b',             'chungo'),
     _ri(r'\brara\b',             'chunga'),
 
@@ -202,8 +200,6 @@ VOCAB_SUBS = [
     _ri(r'\bDesacuerdo\b',       'Ni de coña'),
     _ri(r'\bpara nada\b',        'ni de coña'),
     _ri(r'\bni hablar\b',        'ni de coña'),
-    _ri(r'\bimpossible\b',       'imposible'),
-    _ri(r'\bimposible\b',        'imposible'),    # keep
 
     # === Informal registers ===
     _ri(r'\bguay\b',             'guay'),         # keep
@@ -222,8 +218,7 @@ VOCAB_SUBS = [
     _ri(r'\bde todas formas\b',  'de todas'),
     _ri(r'\bde todos modos\b',   'de todos modos'), # keep
     _ri(r'\bde hecho\b',         'a ver'),
-    _ri(r'\bpracticamente\b',    'casi'),
-    _ri(r'\bprácticamente\b',    'casi'),
+    _ri(r'\bpr[aá]cticamente\b', 'casi'),
 
     # === Common phrase fixes (formal → informal) ===
     _ri(r'\bAvíseme\b',          'Avísanos'),
@@ -640,10 +635,10 @@ def translate_dialogue(orig_line, cheli_line, character):
     stripped_orig = orig_line.rstrip()
     if stripped_orig in _OVERRIDES_STRIPPED:
         override = _OVERRIDES_STRIPPED[stripped_orig]
-        # Preserve trailing whitespace from enriched
-        trail = len(cheli_line) - len(cheli_line.rstrip())
+        trail_len = len(cheli_line.rstrip())
+        trail = len(cheli_line) - trail_len
         if trail > 0:
-            return override.rstrip() + cheli_line[len(cheli_line.rstrip()):]
+            return override.rstrip() + cheli_line[trail_len:]
         return override
 
     # 2. Start from the enriched Spanish line as base
@@ -720,7 +715,11 @@ def main():
             changes += 1
             if changes >= 20:
                 break
-    print(f"Total lines changed: {sum(1 for o, c, out in zip(lines_orig, lines_cheli, output) if not is_structural(o) and out != c)}")
+    changed_count = sum(
+        1 for o, c, out in zip(lines_orig, lines_cheli, output)
+        if not is_structural(o) and out != c
+    )
+    print(f"Total lines changed: {changed_count}")
 
 
 if __name__ == '__main__':
